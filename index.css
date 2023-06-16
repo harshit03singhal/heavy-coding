@@ -1,0 +1,113 @@
+:root{
+    --primarycolour:#82AAE3;
+    --backgroundcolour:#EAFDFC;
+    --primaryacentcolour:#BFEAF5;
+    --secondarycolour:#EAFDFC;
+    --whitecolour:white;
+    --blaclcolour:black;
+    --primartfont:"Open Sana", sans-serif;
+    --firstheight:40px;
+    --cursivefont:"Bree-Seri", cursive;
+}
+
+body{
+    font-family: var(--primartfont);
+    background-color: var(--backgroundcolour);
+    padding: 40px;
+    /* margin: 0px; */
+  
+}
+.box{
+    background-color: var(--whitecolour);
+}
+.first{
+    display: flex;
+    height:var(--firstheight);
+    justify-content:space-between;
+    /* margin: 50px; */
+    background-color: var(--whitecolour);
+}
+.logo{
+    display: flex;
+    /* height: var(--firstheight); */
+}
+.navi{
+    padding:16px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.contact{
+    /* height: var(--firstheight); */
+    display: flex;
+}
+.second{
+    background: linear-gradient(
+        90deg,
+        var(--primaryacentcolour),
+        var(--primarycolour),
+        /* var(--secondarycolour) */
+        #74ece6
+        
+    );
+    display: flex;
+    font-family: var(--cursivefont);
+    justify-content: space-around;
+    height: 350px;
+}
+a {
+    text-decoration: none;
+        }
+.cv {
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    padding: 3px 1px 0px 1px;
+    text-align: center;
+}
+.selfimage{
+    position: relative;
+    
+    left: 50px;
+
+}
+.name{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Name{
+    margin-left: 0px;
+}
+.service_card{
+    border: solid rgba(0, 0, 0, 0.367);
+    padding: 10px;
+    background-color: orangered;
+}
+.service_card_text{
+    /* margin-top: 30px; */
+    /* font-size: 35px; */
+
+}
+.sc_body{
+    font-size: 7px;
+    /* margin-right: */
+    /* height: 22px; */
+}
+.service_card_icon{
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    /* margin-left: 10px; */
+    /* position: absolute; */
+}
+.service_cards{
+    display: flex;
+    justify-content: space-around;
+} 
+.service_card:hover{
+    border: none;
+    box-shadow: 5px 5px 2px;
+}
+.text1{
+    text-align: center;
+}
